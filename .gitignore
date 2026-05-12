@@ -1,0 +1,64 @@
+# Virtual Machine Files
+*.iso
+*.vdi
+*.vmdk
+*.qcow2
+*.img
+*.vhd
+*.vhdx
+
+# Vagrant
+.vagrant/
+*.box
+
+# Docker
+Dockerfile.dev
+docker-compose.override.yml
+
+# Build artifacts
+build/
+dist/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+.tmp/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+*.pkl
+*.png
+
+# Git
+.git/
