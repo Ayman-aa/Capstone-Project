@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "category": "factual",
+    "language": "arabic",
+    "prompt": "ما هي عاصمة المغرب؟",
+    "english_note": "What is the capital of Morocco?",
+    "expected_type": "single fact"
+  },
+  {
+    "id": 2,
+    "category": "factual",
+    "language": "arabic",
+    "prompt": "كم عدد سكان المغرب تقريباً؟",
+    "english_note": "Approximately what is the population of Morocco?",
+    "expected_type": "single fact"
+  },
+  {
+    "id": 3,
+    "category": "factual",
+    "language": "arabic",
+    "prompt": "ما هي اللغات الرسمية في المغرب؟",
+    "english_note": "What are the official languages of Morocco?",
+    "expected_type": "list"
+  },
+  {
+    "id": 4,
+    "category": "factual",
+    "language": "arabic",
+    "prompt": "ما هو الفرق بين الذكاء الاصطناعي والتعلم الآلي؟",
+    "english_note": "What is the difference between AI and machine learning?",
+    "expected_type": "explanation"
+  },
+  {
+    "id": 5,
+    "category": "factual",
+    "language": "arabic",
+    "prompt": "ما هي الفوتوسينتيز وكيف تعمل؟",
+    "english_note": "What is photosynthesis and how does it work?",
+    "expected_type": "explanation"
+  },
+  {
+    "id": 6,
+    "category": "factual",
+    "language": "french",
+    "prompt": "Quelle est la capitale de la France?",
+    "english_note": "What is the capital of France?",
+    "expected_type": "single fact"
+  },
+  {
+    "id": 7,
+    "category": "factual",
+    "language": "french",
+    "prompt": "Qu'est-ce que l'intelligence artificielle?",
+    "english_note": "What is artificial intelligence?",
+    "expected_type": "definition"
+  },
+  {
+    "id": 8,
+    "category": "factual",
+    "language": "french",
+    "prompt": "Quelle est la différence entre un petit modèle de langage et un grand modèle de langage?",
+    "english_note": "What is the difference between a small and large language model?",
+    "expected_type": "comparison"
+  },
+  {
+    "id": 9,
+    "category": "factual",
+    "language": "french",
+    "prompt": "Comment fonctionne un panneau solaire?",
+    "english_note": "How does a solar panel work?",
+    "expected_type": "explanation"
+  },
+  {
+    "id": 10,
+    "category": "factual",
+    "language": "french",
+    "prompt": "Qu'est-ce que l'open source et pourquoi est-ce important?",
+    "english_note": "What is open source and why does it matter?",
+    "expected_type": "explanation"
+  },
+  {
+    "id": 11,
+    "category": "reasoning",
+    "language": "arabic",
+    "prompt": "إذا كان لديك 10 تفاحات وأعطيت صديقك 3، ثم اشتريت 5 أخرى، فكم تفاحة لديك الآن؟",
+    "english_note": "If you have 10 apples, give 3 to a friend, then buy 5 more, how many do you have?",
+    "expected_type": "math"
+  },
+  {
+    "id": 12,
+    "category": "reasoning",
+    "language": "arabic",
+    "prompt": "مزارع لديه 3 حقول. كل حقل ينتج 150 كيلوغراماً من القمح في الموسم. إذا باع نصف الإنتاج بسعر 2 درهم للكيلوغرام، كم ربح؟",
+    "english_note": "A farmer has 3 fields, each producing 150kg of wheat. He sells half at 2 dirhams/kg. How much does he earn?",
+    "expected_type": "multi-step math"
+  },
+  {
+    "id": 13,
+    "category": "reasoning",
+    "language": "arabic",
+    "prompt": "إذا كان قطار يسير بسرعة 120 كيلومتر في الساعة، كم من الوقت يستغرق للوصول من الدار البيضاء إلى مراكش على بعد 240 كيلومتراً؟",
+    "english_note": "A train travels 120km/h. How long to travel 240km from Casablanca to Marrakech?",
+    "expected_type": "math"
+  },
+  {
+    "id": 14,
+    "category": "reasoning",
+    "language": "arabic",
+    "prompt": "لماذا تكون درجات الحرارة في المناطق الساحلية أكثر اعتدالاً من المناطق الداخلية؟",
+    "english_note": "Why are coastal areas more moderate in temperature than inland regions?",
+    "expected_type": "causal reasoning"
+  },
+  {
+    "id": 15,
+    "category": "reasoning",
+    "language": "arabic",
+    "prompt": "شركة صغيرة تنفق 5000 درهم شهرياً على الإيجار و2000 درهم على الرواتب و1000 درهم على المواد. إذا كانت تحقق إيراداً شهرياً قدره 10000 درهم، ما هو صافي ربحها؟",
+    "english_note": "A company spends 5000 on rent, 2000 on salaries, 1000 on materials. Revenue is 10000. What is net profit?",
+    "expected_type": "business math"
+  },
+  {
+    "id": 16,
+    "category": "reasoning",
+    "language": "french",
+    "prompt": "Si un modèle d'IA consomme 10 fois plus d'énergie qu'une recherche Google, et qu'un utilisateur fait 100 requêtes par jour, combien de recherches Google équivalentes cela représente-t-il par semaine?",
+    "english_note": "If AI uses 10x more energy than a Google search, and a user makes 100 queries/day, how many Google searches equivalent per week?",
+    "expected_type": "multi-step math"
+  },
+  {
+    "id": 17,
+    "category": "reasoning",
+    "language": "french",
+    "prompt": "Expliquez pourquoi un modèle de langage plus petit peut parfois être préférable à un grand modèle pour une entreprise locale.",
+    "english_note": "Explain why a smaller language model might be preferable to a large one for a local business.",
+    "expected_type": "analytical reasoning"
+  },
+  {
+    "id": 18,
+    "category": "reasoning",
+    "language": "french",
+    "prompt": "Un étudiant achète un abonnement ChatGPT à 20 dollars par mois pendant 4 ans d'université. Combien dépense-t-il au total, et qu'aurait-il pu faire avec cet argent?",
+    "english_note": "A student pays $20/month for ChatGPT for 4 university years. Total cost and what else could that buy?",
+    "expected_type": "math and reasoning"
+  },
+  {
+    "id": 19,
+    "category": "reasoning",
+    "language": "french",
+    "prompt": "Pourquoi les pays à faible revenu sont-ils désavantagés dans l'accès à l'intelligence artificielle avancée?",
+    "english_note": "Why are low-income countries disadvantaged in accessing advanced AI?",
+    "expected_type": "causal analysis"
+  },
+  {
+    "id": 20,
+    "category": "reasoning",
+    "language": "french",
+    "prompt": "Si un routeur hybride envoie 40% des requêtes vers le modèle A (précision 69%), 30% vers le modèle B (précision 71%), et 30% vers le modèle C (précision 26%), quelle est la précision moyenne pondérée?",
+    "english_note": "If a hybrid router sends 40% to model A (69% accuracy), 30% to B (71%), 30% to C (26%), what is weighted accuracy?",
+    "expected_type": "weighted average math"
+  },
+  {
+    "id": 21,
+    "category": "coding",
+    "language": "arabic",
+    "prompt": "اكتب دالة بلغة بايثون تحسب مجموع الأعداد الزوجية من 1 إلى n.",
+    "english_note": "Write a Python function that calculates the sum of even numbers from 1 to n.",
+    "expected_type": "code"
+  },
+  {
+    "id": 22,
+    "category": "coding",
+    "language": "arabic",
+    "prompt": "اكتب برنامجاً بلغة بايثون يقرأ قائمة من الأرقام ويعيد أكبر رقم وأصغر رقم.",
+    "english_note": "Write a Python program that reads a list of numbers and returns the max and min.",
+    "expected_type": "code"
+  },
+  {
+    "id": 23,
+    "category": "coding",
+    "language": "arabic",
+    "prompt": "ما هو الخطأ في هذا الكود بالبايثون وكيف تصلحه؟\n\ndef calculate_average(numbers):\n    total = 0\n    for num in numbers:\n        total += num\n    return total / len(numbers)\n\nresult = calculate_average([])\nprint(result)",
+    "english_note": "What is the bug in this Python code and how do you fix it? (division by zero on empty list)",
+    "expected_type": "debugging"
+  },
+  {
+    "id": 24,
+    "category": "coding",
+    "language": "french",
+    "prompt": "Écrivez une fonction Python qui vérifie si un nombre est premier.",
+    "english_note": "Write a Python function to check if a number is prime.",
+    "expected_type": "code"
+  },
+  {
+    "id": 25,
+    "category": "coding",
+    "language": "french",
+    "prompt": "Expliquez la différence entre une liste et un dictionnaire en Python, avec un exemple de chaque.",
+    "english_note": "Explain the difference between a list and dictionary in Python with an example of each.",
+    "expected_type": "explanation with code"
+  },
+  {
+    "id": 26,
+    "category": "coding",
+    "language": "french",
+    "prompt": "Comment lire un fichier CSV en Python et afficher les 5 premières lignes?",
+    "english_note": "How do you read a CSV file in Python and display the first 5 rows?",
+    "expected_type": "code"
+  },
+  {
+    "id": 27,
+    "category": "coding",
+    "language": "arabic",
+    "prompt": "اشرح مفهوم الحلقات في البرمجة مع مثال بسيط بلغة بايثون.",
+    "english_note": "Explain the concept of loops in programming with a simple Python example.",
+    "expected_type": "explanation with code"
+  },
+  {
+    "id": 28,
+    "category": "coding",
+    "language": "french",
+    "prompt": "Qu'est-ce qu'une API et comment en utiliser une avec Python? Donnez un exemple simple.",
+    "english_note": "What is an API and how do you use one with Python? Give a simple example.",
+    "expected_type": "explanation with code"
+  },
+  {
+    "id": 29,
+    "category": "practical_advice",
+    "language": "arabic",
+    "prompt": "كيف يمكن لمزارع صغير استخدام الذكاء الاصطناعي لتحسين إنتاجه الزراعي؟",
+    "english_note": "How can a small farmer use AI to improve agricultural productivity?",
+    "expected_type": "practical advice"
+  },
+  {
+    "id": 30,
+    "category": "practical_advice",
+    "language": "arabic",
+    "prompt": "ما هي الأعراض الرئيسية لمرض السكري وكيف يمكن الوقاية منه؟",
+    "english_note": "What are the main symptoms of diabetes and how can it be prevented?",
+    "expected_type": "health information"
+  },
+  {
+    "id": 31,
+    "category": "practical_advice",
+    "language": "arabic",
+    "prompt": "كيف يمكن لصاحب متجر صغير تحسين مبيعاته باستخدام التسويق الرقمي؟",
+    "english_note": "How can a small shop owner improve sales using digital marketing?",
+    "expected_type": "business advice"
+  },
+  {
+    "id": 32,
+    "category": "practical_advice",
+    "language": "arabic",
+    "prompt": "ما هي الخطوات الأساسية لتسجيل شركة صغيرة في المغرب؟",
+    "english_note": "What are the basic steps to register a small business in Morocco?",
+    "expected_type": "procedural advice"
+  },
+  {
+    "id": 33,
+    "category": "practical_advice",
+    "language": "arabic",
+    "prompt": "كيف يمكن لطالب جامعي تنظيم وقته بشكل أفضل خلال فترة الامتحانات؟",
+    "english_note": "How can a university student better manage their time during exam period?",
+    "expected_type": "study advice"
+  },
+  {
+    "id": 34,
+    "category": "practical_advice",
+    "language": "french",
+    "prompt": "Quels sont les signes d'alerte d'un problème de santé mentale et quand faut-il consulter un médecin?",
+    "english_note": "What are warning signs of a mental health problem and when should you see a doctor?",
+    "expected_type": "health information"
+  },
+  {
+    "id": 35,
+    "category": "practical_advice",
+    "language": "french",
+    "prompt": "Comment une petite entreprise peut-elle protéger les données personnelles de ses clients conformément à la loi?",
+    "english_note": "How can a small business protect customer personal data in compliance with the law?",
+    "expected_type": "legal and business advice"
+  },
+  {
+    "id": 36,
+    "category": "practical_advice",
+    "language": "french",
+    "prompt": "Quelles sont les meilleures pratiques pour économiser de l'énergie à la maison?",
+    "english_note": "What are the best practices for saving energy at home?",
+    "expected_type": "practical advice"
+  },
+  {
+    "id": 37,
+    "category": "practical_advice",
+    "language": "french",
+    "prompt": "Comment identifier si une plante agricole souffre d'un manque d'eau ou de nutriments?",
+    "english_note": "How do you identify if a crop is suffering from water or nutrient deficiency?",
+    "expected_type": "agricultural advice"
+  },
+  {
+    "id": 38,
+    "category": "practical_advice",
+    "language": "french",
+    "prompt": "Expliquez comment l'intelligence artificielle peut aider dans le domaine de la santé dans les pays en développement.",
+    "english_note": "Explain how AI can help in healthcare in developing countries.",
+    "expected_type": "explanatory advice"
+  },
+  {
+    "id": 39,
+    "category": "practical_advice",
+    "language": "arabic",
+    "prompt": "ما هي نصائحك لشخص يريد تعلم البرمجة من الصفر بدون تكلفة؟",
+    "english_note": "What advice would you give someone who wants to learn programming from scratch for free?",
+    "expected_type": "learning advice"
+  },
+  {
+    "id": 40,
+    "category": "practical_advice",
+    "language": "french",
+    "prompt": "Quels sont les avantages et les inconvénients d'utiliser l'intelligence artificielle pour l'éducation des enfants?",
+    "english_note": "What are the advantages and disadvantages of using AI for children's education?",
+    "expected_type": "balanced analysis"
+  }
+]
