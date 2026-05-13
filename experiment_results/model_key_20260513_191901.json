@@ -1,0 +1,5 @@
+{
+  "tinyllama": "MODEL_A",
+  "phi3:mini": "MODEL_B",
+  "gemma2:9b": "MODEL_C"
+}
