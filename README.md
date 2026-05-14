@@ -3,7 +3,6 @@
 **Authors:** Ayman Aamam, Fatima Zahra Abeddad  
 **Course:** Introduction to Data Science and Artificial Intelligence  
 **Date:** May 2026  
-**Repository:** [Capstone-Project](https://github.com/Ayman-aa/Capstone-Project) (branch: `models`)
 
 ---
 
